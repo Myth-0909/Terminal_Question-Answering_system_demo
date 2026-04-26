@@ -1,0 +1,13 @@
+# Python cache and virtual env
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local data/runtime artifacts
+milvus_data/
+chat_history/
+
+# Environment files
+.env
+.env.*
+!.env.example
